@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="All tests">
+    <test name="Login process">
+        <classes>
+            <class name="tests.LoginLogoutTests"/>
+        </classes>
+    </test>
+
+    <test name="Adding the product">
+        <classes>
+            <class name="tests.WorkWithProductTests"/>
+        </classes>
+    </test>
+</suite>
